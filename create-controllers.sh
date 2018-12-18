@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm -rf .vagrant
-
 ./k8s-api.sh
 
 vagrant destroy -f
